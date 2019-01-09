@@ -1,0 +1,124 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(169, 211, 255, 0.32);
+    padding-top: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+input, textarea, select, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 15px;
+    background: #92c7ff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header input {
+    width: 100%;
+    min-height: 3rem;
+    float: left;
+    background-color: #A9D3FF;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    text-indent: 15px;
+    padding-right: 4rem;
+    outline:none;
+}
+
+header button {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 25px;
+    background-color: #f0f8ff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header button:hover {
+    transform: scale(1.1);
+}
+
+header button svg {
+    height: 1rem;
+    width: 1rem;
+}    
+
+header button svg .fill {
+    fill: #92c7ff;
+}
+
+
+ul {
+   list-style-type: none; 
+   padding: 0.5rem;
+   
+}
+
+ul li {
+    padding: 0.6rem 4rem 0.8rem 0.5rem;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: inset 0px 0px 3px 2px #92c7ff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+div.button-wrapper {
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0.6rem;
+    display: flex;
+
+}
+
+button.button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button.complete-btn {
+    background-color: #EBFFDE;
+}
+
+button.remove-btn {
+    background-color: rgba(239, 72, 72, 0.56);
+}
+
+button.button:hover {
+    transform: scale(1.1);
+}
+
+button.remove-btn {
+    margin-left: 5px;
+}
+
+button.task-done {
+    background-color: #97f951;
+}
