@@ -1,3 +1,2 @@
 # ToDoApp
-ToDo list application
-Vanilla JavaScript
+Vanilla JavaScript ToDo list application
